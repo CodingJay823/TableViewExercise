@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		979BCFB624D9E2E800BECED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BCFB524D9E2E800BECED0 /* AppDelegate.swift */; };
+		979BCFB824D9E2E800BECED0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BCFB724D9E2E800BECED0 /* SceneDelegate.swift */; };
+		979BCFBA24D9E2E800BECED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BCFB924D9E2E800BECED0 /* ViewController.swift */; };
+		979BCFBD24D9E2E800BECED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979BCFBB24D9E2E800BECED0 /* Main.storyboard */; };
+		979BCFBF24D9E2EA00BECED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979BCFBE24D9E2EA00BECED0 /* Assets.xcassets */; };
+		979BCFC224D9E2EA00BECED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979BCFC024D9E2EA00BECED0 /* LaunchScreen.storyboard */; };
+		979BCFCD24D9E2EA00BECED0 /* JadasTableViewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BCFCC24D9E2EA00BECED0 /* JadasTableViewAppTests.swift */; };
+		979BCFD824D9E2EB00BECED0 /* JadasTableViewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BCFD724D9E2EB00BECED0 /* JadasTableViewAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		979BCFC924D9E2EA00BECED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979BCFAA24D9E2E800BECED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979BCFB124D9E2E800BECED0;
+			remoteInfo = JadasTableViewApp;
+		};
+		979BCFD424D9E2EA00BECED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979BCFAA24D9E2E800BECED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979BCFB124D9E2E800BECED0;
+			remoteInfo = JadasTableViewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		979BCFB224D9E2E800BECED0 /* JadasTableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JadasTableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		979BCFB524D9E2E800BECED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		979BCFB724D9E2E800BECED0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		979BCFB924D9E2E800BECED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		979BCFBC24D9E2E800BECED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		979BCFBE24D9E2EA00BECED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		979BCFC124D9E2EA00BECED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		979BCFC324D9E2EA00BECED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979BCFC824D9E2EA00BECED0 /* JadasTableViewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JadasTableViewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979BCFCC24D9E2EA00BECED0 /* JadasTableViewAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JadasTableViewAppTests.swift; sourceTree = "<group>"; };
+		979BCFCE24D9E2EA00BECED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979BCFD324D9E2EA00BECED0 /* JadasTableViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JadasTableViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979BCFD724D9E2EB00BECED0 /* JadasTableViewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JadasTableViewAppUITests.swift; sourceTree = "<group>"; };
+		979BCFD924D9E2EB00BECED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		979BCFAF24D9E2E800BECED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BCFC524D9E2EA00BECED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BCFD024D9E2EA00BECED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		979BCFA924D9E2E800BECED0 = {
+			isa = PBXGroup;
+			children = (
+				979BCFB424D9E2E800BECED0 /* JadasTableViewApp */,
+				979BCFCB24D9E2EA00BECED0 /* JadasTableViewAppTests */,
+				979BCFD624D9E2EB00BECED0 /* JadasTableViewAppUITests */,
+				979BCFB324D9E2E800BECED0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		979BCFB324D9E2E800BECED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				979BCFB224D9E2E800BECED0 /* JadasTableViewApp.app */,
+				979BCFC824D9E2EA00BECED0 /* JadasTableViewAppTests.xctest */,
+				979BCFD324D9E2EA00BECED0 /* JadasTableViewAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		979BCFB424D9E2E800BECED0 /* JadasTableViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				979BCFB524D9E2E800BECED0 /* AppDelegate.swift */,
+				979BCFB724D9E2E800BECED0 /* SceneDelegate.swift */,
+				979BCFB924D9E2E800BECED0 /* ViewController.swift */,
+				979BCFBB24D9E2E800BECED0 /* Main.storyboard */,
+				979BCFBE24D9E2EA00BECED0 /* Assets.xcassets */,
+				979BCFC024D9E2EA00BECED0 /* LaunchScreen.storyboard */,
+				979BCFC324D9E2EA00BECED0 /* Info.plist */,
+			);
+			path = JadasTableViewApp;
+			sourceTree = "<group>";
+		};
+		979BCFCB24D9E2EA00BECED0 /* JadasTableViewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				979BCFCC24D9E2EA00BECED0 /* JadasTableViewAppTests.swift */,
+				979BCFCE24D9E2EA00BECED0 /* Info.plist */,
+			);
+			path = JadasTableViewAppTests;
+			sourceTree = "<group>";
+		};
+		979BCFD624D9E2EB00BECED0 /* JadasTableViewAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				979BCFD724D9E2EB00BECED0 /* JadasTableViewAppUITests.swift */,
+				979BCFD924D9E2EB00BECED0 /* Info.plist */,
+			);
+			path = JadasTableViewAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		979BCFB124D9E2E800BECED0 /* JadasTableViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979BCFDC24D9E2EB00BECED0 /* Build configuration list for PBXNativeTarget "JadasTableViewApp" */;
+			buildPhases = (
+				979BCFAE24D9E2E800BECED0 /* Sources */,
+				979BCFAF24D9E2E800BECED0 /* Frameworks */,
+				979BCFB024D9E2E800BECED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JadasTableViewApp;
+			productName = JadasTableViewApp;
+			productReference = 979BCFB224D9E2E800BECED0 /* JadasTableViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		979BCFC724D9E2EA00BECED0 /* JadasTableViewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979BCFDF24D9E2EB00BECED0 /* Build configuration list for PBXNativeTarget "JadasTableViewAppTests" */;
+			buildPhases = (
+				979BCFC424D9E2EA00BECED0 /* Sources */,
+				979BCFC524D9E2EA00BECED0 /* Frameworks */,
+				979BCFC624D9E2EA00BECED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979BCFCA24D9E2EA00BECED0 /* PBXTargetDependency */,
+			);
+			name = JadasTableViewAppTests;
+			productName = JadasTableViewAppTests;
+			productReference = 979BCFC824D9E2EA00BECED0 /* JadasTableViewAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		979BCFD224D9E2EA00BECED0 /* JadasTableViewAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979BCFE224D9E2EB00BECED0 /* Build configuration list for PBXNativeTarget "JadasTableViewAppUITests" */;
+			buildPhases = (
+				979BCFCF24D9E2EA00BECED0 /* Sources */,
+				979BCFD024D9E2EA00BECED0 /* Frameworks */,
+				979BCFD124D9E2EA00BECED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979BCFD524D9E2EA00BECED0 /* PBXTargetDependency */,
+			);
+			name = JadasTableViewAppUITests;
+			productName = JadasTableViewAppUITests;
+			productReference = 979BCFD324D9E2EA00BECED0 /* JadasTableViewAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		979BCFAA24D9E2E800BECED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jada Harmon";
+				TargetAttributes = {
+					979BCFB124D9E2E800BECED0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					979BCFC724D9E2EA00BECED0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 979BCFB124D9E2E800BECED0;
+					};
+					979BCFD224D9E2EA00BECED0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 979BCFB124D9E2E800BECED0;
+					};
+				};
+			};
+			buildConfigurationList = 979BCFAD24D9E2E800BECED0 /* Build configuration list for PBXProject "JadasTableViewApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 979BCFA924D9E2E800BECED0;
+			productRefGroup = 979BCFB324D9E2E800BECED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				979BCFB124D9E2E800BECED0 /* JadasTableViewApp */,
+				979BCFC724D9E2EA00BECED0 /* JadasTableViewAppTests */,
+				979BCFD224D9E2EA00BECED0 /* JadasTableViewAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		979BCFB024D9E2E800BECED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979BCFC224D9E2EA00BECED0 /* LaunchScreen.storyboard in Resources */,
+				979BCFBF24D9E2EA00BECED0 /* Assets.xcassets in Resources */,
+				979BCFBD24D9E2E800BECED0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BCFC624D9E2EA00BECED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BCFD124D9E2EA00BECED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		979BCFAE24D9E2E800BECED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979BCFBA24D9E2E800BECED0 /* ViewController.swift in Sources */,
+				979BCFB624D9E2E800BECED0 /* AppDelegate.swift in Sources */,
+				979BCFB824D9E2E800BECED0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BCFC424D9E2EA00BECED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979BCFCD24D9E2EA00BECED0 /* JadasTableViewAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979BCFCF24D9E2EA00BECED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979BCFD824D9E2EB00BECED0 /* JadasTableViewAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		979BCFCA24D9E2EA00BECED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979BCFB124D9E2E800BECED0 /* JadasTableViewApp */;
+			targetProxy = 979BCFC924D9E2EA00BECED0 /* PBXContainerItemProxy */;
+		};
+		979BCFD524D9E2EA00BECED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979BCFB124D9E2E800BECED0 /* JadasTableViewApp */;
+			targetProxy = 979BCFD424D9E2EA00BECED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		979BCFBB24D9E2E800BECED0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979BCFBC24D9E2E800BECED0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		979BCFC024D9E2EA00BECED0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979BCFC124D9E2EA00BECED0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		979BCFDA24D9E2EB00BECED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		979BCFDB24D9E2EB00BECED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		979BCFDD24D9E2EB00BECED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JadasTableViewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jadaharmon.JadasTableViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		979BCFDE24D9E2EB00BECED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JadasTableViewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jadaharmon.JadasTableViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		979BCFE024D9E2EB00BECED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JadasTableViewAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jadaharmon.JadasTableViewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JadasTableViewApp.app/JadasTableViewApp";
+			};
+			name = Debug;
+		};
+		979BCFE124D9E2EB00BECED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JadasTableViewAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jadaharmon.JadasTableViewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JadasTableViewApp.app/JadasTableViewApp";
+			};
+			name = Release;
+		};
+		979BCFE324D9E2EB00BECED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JadasTableViewAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jadaharmon.JadasTableViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JadasTableViewApp;
+			};
+			name = Debug;
+		};
+		979BCFE424D9E2EB00BECED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JadasTableViewAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jadaharmon.JadasTableViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JadasTableViewApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		979BCFAD24D9E2E800BECED0 /* Build configuration list for PBXProject "JadasTableViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979BCFDA24D9E2EB00BECED0 /* Debug */,
+				979BCFDB24D9E2EB00BECED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979BCFDC24D9E2EB00BECED0 /* Build configuration list for PBXNativeTarget "JadasTableViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979BCFDD24D9E2EB00BECED0 /* Debug */,
+				979BCFDE24D9E2EB00BECED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979BCFDF24D9E2EB00BECED0 /* Build configuration list for PBXNativeTarget "JadasTableViewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979BCFE024D9E2EB00BECED0 /* Debug */,
+				979BCFE124D9E2EB00BECED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979BCFE224D9E2EB00BECED0 /* Build configuration list for PBXNativeTarget "JadasTableViewAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979BCFE324D9E2EB00BECED0 /* Debug */,
+				979BCFE424D9E2EB00BECED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 979BCFAA24D9E2E800BECED0 /* Project object */;
+}
